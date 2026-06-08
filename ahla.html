@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIRTHDAY GIRL</title>
+    <style>
+        body {
+            background-image: url('spidermanwallpaperAndrewGarfield.jpg');
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 20px;
+        }
+        .spiderman-text {
+            font-family: 'Spiderman', sans-serif;
+            font-size: 4rem;
+            color: #e22d25; 
+            text-shadow: 3px 3px 0px #000000;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+
+        h2.spiderman-text {
+            font-size: 2.5rem; 
+        }
+
+        button {
+            display: block;
+            margin: 30px auto;
+            height: 80px;
+            width: 120px; 
+            border-radius: 12px;
+            background-color: #001f3f; 
+            border: 2px solid #e22d25;
+            cursor: pointer;
+            transition: transform 0.2s;
+            color:  white;
+        }
+        input{
+             display: block;
+            margin: 30px auto;
+            border-radius: 12px;
+        }
+        button:hover {
+            transform: scale(1.1); 
+        }
+
+        button a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="spiderman-text">how old are you ?</h1>
+    <input id="age" type="text" placeholder="houni">
+    <button type="button" onclick="verif()">submit</button>
+
+    
+
+     <script src="controles.js"></script>
+</body>
+</html>
